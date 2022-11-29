@@ -61,3 +61,7 @@ li {
 li.big {
     font-style: oblique;
 }
+
+ul {
+  list-style-type:circle;  
+}
