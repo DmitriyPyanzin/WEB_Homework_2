@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'Nexa Script Heavy';
+	src: url('fonts/nexa_script_heavy.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/nexa_script_heavy.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/nexa_script_heavy.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/nexa_script_heavy.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/nexa_script_heavy.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/nexa_script_heavy.svg#nexa_script_heavy') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'beer money';
+	src: url('fonts2/beer_money.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts2/beer_money.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts2/beer_money.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts2/beer_money.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts2/beer_money.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts2/beer_money.svg#beer_money') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Prostoy AWX';
+	src: url('fonts3/prostoy_awx.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts3/prostoy_awx.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts3/prostoy_awx.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts3/prostoy_awx.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts3/prostoy_awx.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts3/prostoy_awx.svg#prostoy_awx') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+html {
+    background-color: aquamarine;
+}
+
+h1 {
+    color: rgb(242, 97, 6);
+    font-family: 'Nexa Script Heavy';
+    margin: 100px 0 100px 100px;
+}
+
+h2 {
+    color: brown;
+    font-family: 'beer money';
+    font-size: 40px;
+}
+
+h3 {
+    color: rgb(234, 11, 216);
+    font-family: 'Prostoy AWX';
+    font-size: 30px;
+}
+
+li.fat {
+    font-size: xx-large;
+}
+
+li {
+    font-size: larger;
+}
+
+li.big {
+    font-style: oblique;
+}
